@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+  id="com.commontime.cordova.prevent-resize"
+  version="0.0.1">
+
+  <name>Prevents resizing (split-screen) of android activity </name>
+
+  <platform name="android">
+
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity" mode="merge">
+      <activity android:resizeableActivity="false"/>
+    </edit-config>
+      
+  </platform>
+   
+</plugin>

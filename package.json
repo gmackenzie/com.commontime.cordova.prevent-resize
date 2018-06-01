@@ -1,0 +1,23 @@
+{
+  "name": "com.commontime.cordova.prevent-resize",
+  "version": "0.0.1",
+  "description": "Commontime resize (split-screen) prevention plugin.",
+  "cordova": {
+    "id": "com.commontime.cordova.prevent-resize",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "commontime",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Commontime Ltd"
+}
